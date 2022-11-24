@@ -4,7 +4,7 @@ public class Main {
 	    circulo.getPerimeter();
 	    System.out.println(circulo);
 
-    Rectangle rectangulo =new Rectangle(1.0,2.0,"red",false);
+	Rectangle rectangulo =new Rectangle("red",false,1.0,2.0);
 	    rectangulo.getArea();
 	    rectangulo.getPerimeter();
 	    System.out.println(rectangulo);

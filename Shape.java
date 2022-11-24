@@ -1,6 +1,8 @@
 public abstract class Shape {
-    public String color ="red";
-    public Boolean filled = true;
+    private String color ;
+    private Boolean filled ;
+
+
     public String getColor() {
         return color;
     }
@@ -9,7 +11,16 @@ public abstract class Shape {
         this.color = color;
     }
 
+    public Boolean getFilled() {
+        return filled;
+    }
+
     public void setFilled(Boolean filled) {
+        this.filled = filled;
+    }
+
+    public Shape(String color, Boolean filled) {
+        this.color = color;
         this.filled = filled;
     }
 

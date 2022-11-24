@@ -2,6 +2,10 @@ public abstract class Shape {
     private String color ;
     private Boolean filled ;
 
+    public Shape() {
+
+    }
+
 
     public String getColor() {
         return color;

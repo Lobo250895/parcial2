@@ -26,4 +26,11 @@ public class Square extends Rectangle {
     public String toString() {
         return "Square{ side=" + side + "width" + "length"+ "}";
     }
+
+    public void setWidth(double side){
+
+    }
+    public void setLength(double side){
+
+    }
 }

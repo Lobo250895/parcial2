@@ -38,13 +38,13 @@ public class  Circle extends Shape {
 
     @Override
     public double getArea() {
-        double area = 5.5* this.getRadius()*this.getRadius();
+        double area = 3.14* this.getRadius()*this.getRadius();
         System.out.println("el area del circulo es de" + area +"cm");
         return area;
     }
 
     public double getPerimeter(){
-        double perimeter = 5.5*this.getRadius();
+        double perimeter = 3.14*this.getRadius();
         System.out.println("El perimetro del circulo es de" + perimeter+ "cm" );
         return perimeter;
     }
